@@ -1,6 +1,6 @@
 ---
 name: E2E tests
-on:  # yamllint disable-line rule:truthy
+on: # yamllint disable-line rule:truthy
   push:
     branches:
       - main
@@ -15,9 +15,9 @@ jobs:
       E2E_LOGS: true
       CI_VERBOSE: true
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Install Go
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v4
         with:
           go-version: 1.18.x
       - name: Run tests
