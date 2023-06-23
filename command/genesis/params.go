@@ -4,17 +4,17 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/fork"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/contracts/staking"
-	stakingHelper "github.com/0xPolygon/polygon-edge/helper/staking"
-	"github.com/0xPolygon/polygon-edge/server"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/LaChain/polygon-edge/chain"
+	"github.com/LaChain/polygon-edge/command"
+	"github.com/LaChain/polygon-edge/command/helper"
+	"github.com/LaChain/polygon-edge/consensus/ibft"
+	"github.com/LaChain/polygon-edge/consensus/ibft/fork"
+	"github.com/LaChain/polygon-edge/consensus/ibft/signer"
+	"github.com/LaChain/polygon-edge/contracts/staking"
+	stakingHelper "github.com/LaChain/polygon-edge/helper/staking"
+	"github.com/LaChain/polygon-edge/server"
+	"github.com/LaChain/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/validators"
 )
 
 const (

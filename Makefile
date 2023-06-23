@@ -23,10 +23,10 @@ build:
 	$(eval BRANCH = $(shell git rev-parse --abbrev-ref HEAD | tr -d '\040\011\012\015\n'))
 	$(eval TIME = $(shell date))
 	go build -o polygon-edge -ldflags="\
-    	-X 'github.com/0xPolygon/polygon-edge/versioning.Version=$(LATEST_VERSION)' \
-		-X 'github.com/0xPolygon/polygon-edge/versioning.Commit=$(COMMIT_HASH)'\
-		-X 'github.com/0xPolygon/polygon-edge/versioning.Branch=$(BRANCH)'\
-		-X 'github.com/0xPolygon/polygon-edge/versioning.BuildTime=$(TIME)'" \
+    	-X 'github.com/LaChain/polygon-edge/versioning.Version=$(LATEST_VERSION)' \
+		-X 'github.com/LaChain/polygon-edge/versioning.Commit=$(COMMIT_HASH)'\
+		-X 'github.com/LaChain/polygon-edge/versioning.Branch=$(BRANCH)'\
+		-X 'github.com/LaChain/polygon-edge/versioning.BuildTime=$(TIME)'" \
 	main.go
 
 .PHONY: lint

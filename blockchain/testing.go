@@ -6,14 +6,14 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/blockchain/storage"
+	"github.com/LaChain/polygon-edge/blockchain/storage"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/state"
-	itrie "github.com/0xPolygon/polygon-edge/state/immutable-trie"
+	"github.com/LaChain/polygon-edge/chain"
+	"github.com/LaChain/polygon-edge/state"
+	itrie "github.com/LaChain/polygon-edge/state/immutable-trie"
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/types"
 )
 
 var (

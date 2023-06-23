@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/secrets"
+	"github.com/LaChain/polygon-edge/secrets"
 	"github.com/hashicorp/go-hclog"
 	vault "github.com/hashicorp/vault/api"
 )

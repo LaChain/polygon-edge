@@ -1,8 +1,8 @@
 package whitelist
 
 import (
-	"github.com/0xPolygon/polygon-edge/command/whitelist/deployment"
-	"github.com/0xPolygon/polygon-edge/command/whitelist/show"
+	"github.com/LaChain/polygon-edge/command/whitelist/deployment"
+	"github.com/LaChain/polygon-edge/command/whitelist/show"
 	"github.com/spf13/cobra"
 )
 

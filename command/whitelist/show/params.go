@@ -3,10 +3,10 @@ package show
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/helper/config"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/chain"
+	"github.com/LaChain/polygon-edge/command"
+	"github.com/LaChain/polygon-edge/helper/config"
+	"github.com/LaChain/polygon-edge/types"
 )
 
 const (

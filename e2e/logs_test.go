@@ -8,11 +8,11 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/0xPolygon/polygon-edge/e2e/framework"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/LaChain/polygon-edge/e2e/framework"
+	"github.com/LaChain/polygon-edge/helper/hex"
+	"github.com/LaChain/polygon-edge/helper/tests"
+	"github.com/LaChain/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/validators"
 
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/crypto/sha3"

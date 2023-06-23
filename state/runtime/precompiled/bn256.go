@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/0xPolygon/polygon-edge/chain"
+	"github.com/LaChain/polygon-edge/chain"
 	bn256 "github.com/umbracle/go-eth-bn256"
 )
 

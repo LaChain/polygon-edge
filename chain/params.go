@@ -3,7 +3,7 @@ package chain
 import (
 	"math/big"
 
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/types"
 )
 
 // Params are all the set of params for the chain

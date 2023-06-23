@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/helper/common"
+	"github.com/LaChain/polygon-edge/command/helper"
+	"github.com/LaChain/polygon-edge/helper/common"
 )
 
 type IBFTQuorumResult struct {

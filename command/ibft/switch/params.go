@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/fork"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/LaChain/polygon-edge/chain"
+	"github.com/LaChain/polygon-edge/command"
+	"github.com/LaChain/polygon-edge/command/helper"
+	"github.com/LaChain/polygon-edge/consensus/ibft/fork"
+	"github.com/LaChain/polygon-edge/helper/common"
+	"github.com/LaChain/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/validators"
 )
 
 const (

@@ -3,8 +3,8 @@ package types
 import (
 	goHex "encoding/hex"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
+	"github.com/LaChain/polygon-edge/helper/hex"
+	"github.com/LaChain/polygon-edge/helper/keccak"
 )
 
 type ReceiptStatus uint64

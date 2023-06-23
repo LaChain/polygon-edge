@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/network/event"
-	"github.com/0xPolygon/polygon-edge/network/proto"
+	"github.com/LaChain/polygon-edge/network/event"
+	"github.com/LaChain/polygon-edge/network/proto"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"google.golang.org/grpc"

@@ -3,9 +3,9 @@ package precompiled
 import (
 	"encoding/binary"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/chain"
+	"github.com/LaChain/polygon-edge/state/runtime"
+	"github.com/LaChain/polygon-edge/types"
 )
 
 var _ runtime.Runtime = &Precompiled{}

@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/blockchain/storage"
+	"github.com/LaChain/polygon-edge/blockchain/storage"
 	"github.com/hashicorp/go-hclog"
 )
 

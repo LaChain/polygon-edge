@@ -6,7 +6,7 @@ import (
 
 	"github.com/0xPolygon/go-ibft/messages"
 	protoIBFT "github.com/0xPolygon/go-ibft/messages/proto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/types"
 )
 
 // Verifier impl for go-ibft

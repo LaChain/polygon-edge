@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/versioning"
+	"github.com/LaChain/polygon-edge/versioning"
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"

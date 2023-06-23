@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/LaChain/polygon-edge/crypto"
+	"github.com/LaChain/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/validators"
 )
 
 type testerAccount struct {

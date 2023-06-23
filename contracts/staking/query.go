@@ -6,9 +6,9 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/0xPolygon/polygon-edge/contracts/abis"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/contracts/abis"
+	"github.com/LaChain/polygon-edge/state/runtime"
+	"github.com/LaChain/polygon-edge/types"
 	"github.com/umbracle/ethgo/abi"
 )
 

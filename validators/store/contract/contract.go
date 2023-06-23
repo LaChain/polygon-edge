@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
+	"github.com/LaChain/polygon-edge/state"
+	"github.com/LaChain/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/validators"
+	"github.com/LaChain/polygon-edge/validators/store"
 	"github.com/hashicorp/go-hclog"
 	lru "github.com/hashicorp/golang-lru"
 )

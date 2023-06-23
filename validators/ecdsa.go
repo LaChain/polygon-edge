@@ -1,7 +1,7 @@
 package validators
 
 import (
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/types"
 	"github.com/umbracle/fastrlp"
 )
 

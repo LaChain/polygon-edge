@@ -1,8 +1,8 @@
 package store
 
 import (
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/consensus/ibft/signer"
+	"github.com/LaChain/polygon-edge/types"
 )
 
 // Utilities for test

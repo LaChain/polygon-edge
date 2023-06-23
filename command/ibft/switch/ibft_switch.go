@@ -3,9 +3,9 @@ package ibftswitch
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/LaChain/polygon-edge/command"
+	"github.com/LaChain/polygon-edge/command/helper"
+	"github.com/LaChain/polygon-edge/validators"
 	"github.com/spf13/cobra"
 )
 

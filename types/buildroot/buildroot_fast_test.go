@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
+	"github.com/LaChain/polygon-edge/helper/keccak"
 )
 
 func BenchmarkFast(b *testing.B) {

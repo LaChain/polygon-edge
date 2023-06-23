@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/LaChain/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/validators"
 	"github.com/stretchr/testify/assert"
 )
 

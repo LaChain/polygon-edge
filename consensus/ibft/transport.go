@@ -2,8 +2,8 @@ package ibft
 
 import (
 	"github.com/0xPolygon/go-ibft/messages/proto"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/network"
+	"github.com/LaChain/polygon-edge/types"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

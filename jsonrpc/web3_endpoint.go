@@ -3,8 +3,8 @@ package jsonrpc
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
-	"github.com/0xPolygon/polygon-edge/versioning"
+	"github.com/LaChain/polygon-edge/helper/keccak"
+	"github.com/LaChain/polygon-edge/versioning"
 )
 
 // Web3 is the web3 jsonrpc endpoint

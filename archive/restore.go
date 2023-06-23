@@ -7,10 +7,10 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/helper/progress"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/blockchain"
+	"github.com/LaChain/polygon-edge/helper/common"
+	"github.com/LaChain/polygon-edge/helper/progress"
+	"github.com/LaChain/polygon-edge/types"
 )
 
 const (

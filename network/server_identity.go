@@ -3,11 +3,11 @@ package network
 import (
 	"math/big"
 
-	"github.com/0xPolygon/polygon-edge/network/common"
-	peerEvent "github.com/0xPolygon/polygon-edge/network/event"
-	"github.com/0xPolygon/polygon-edge/network/grpc"
-	"github.com/0xPolygon/polygon-edge/network/identity"
-	"github.com/0xPolygon/polygon-edge/network/proto"
+	"github.com/LaChain/polygon-edge/network/common"
+	peerEvent "github.com/LaChain/polygon-edge/network/event"
+	"github.com/LaChain/polygon-edge/network/grpc"
+	"github.com/LaChain/polygon-edge/network/identity"
+	"github.com/LaChain/polygon-edge/network/proto"
 	"github.com/armon/go-metrics"
 	kbucket "github.com/libp2p/go-libp2p-kbucket"
 	"github.com/libp2p/go-libp2p-kbucket/keyspace"

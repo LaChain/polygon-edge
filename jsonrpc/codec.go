@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/types"
 )
 
 // Request is a jsonrpc request

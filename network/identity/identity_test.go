@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/network/proto"
-	networkTesting "github.com/0xPolygon/polygon-edge/network/testing"
+	"github.com/LaChain/polygon-edge/network/proto"
+	networkTesting "github.com/LaChain/polygon-edge/network/testing"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"

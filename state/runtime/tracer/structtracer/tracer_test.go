@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/state/runtime/evm"
-	"github.com/0xPolygon/polygon-edge/state/runtime/tracer"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/helper/hex"
+	"github.com/LaChain/polygon-edge/state/runtime"
+	"github.com/LaChain/polygon-edge/state/runtime/evm"
+	"github.com/LaChain/polygon-edge/state/runtime/tracer"
+	"github.com/LaChain/polygon-edge/types"
 	"github.com/stretchr/testify/assert"
 )
 

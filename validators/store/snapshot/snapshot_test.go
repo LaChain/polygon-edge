@@ -7,11 +7,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	testHelper "github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
+	"github.com/LaChain/polygon-edge/crypto"
+	testHelper "github.com/LaChain/polygon-edge/helper/tests"
+	"github.com/LaChain/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/validators"
+	"github.com/LaChain/polygon-edge/validators/store"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
 )

@@ -1,9 +1,9 @@
 package buildroot
 
 import (
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
-	itrie "github.com/0xPolygon/polygon-edge/state/immutable-trie"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/LaChain/polygon-edge/helper/keccak"
+	itrie "github.com/LaChain/polygon-edge/state/immutable-trie"
+	"github.com/LaChain/polygon-edge/types"
 	"github.com/umbracle/fastrlp"
 )
 

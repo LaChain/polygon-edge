@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
+	"github.com/LaChain/polygon-edge/helper/hex"
 )
 
 type TestCase struct {
