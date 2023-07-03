@@ -3,11 +3,11 @@ name: Release
 on: # yamllint disable-line rule:truthy
   push:
     branches-ignore:
-      - "**"
+      - '**'
     tags:
-      - "v*.*.*"
+      - 'v*.*.*'
       # to be used by fork patch-releases ^^
-      - "v*.*.*-*"
+      - 'v*.*.*-*'
 
 jobs:
   goreleaser:

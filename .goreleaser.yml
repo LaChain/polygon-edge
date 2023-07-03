@@ -16,7 +16,8 @@ builds:
     env:
       - CC=o64-clang
       - CXX=o64-clang++
-    ldflags: -s -w -X 'github.com/LaChain/polygon-edge/versioning.Version=v{{ .Version }}'
+    ldflags:
+      -s -w -X 'github.com/LaChain/polygon-edge/versioning.Version=v{{ .Version }}'
 
   - id: darwin-arm64
     main: ./main.go
@@ -28,7 +29,8 @@ builds:
     env:
       - CC=oa64-clang
       - CXX=oa64-clang++
-    ldflags: -s -w -X 'github.com/LaChain/polygon-edge/versioning.Version=v{{ .Version }}'
+    ldflags:
+      -s -w -X 'github.com/LaChain/polygon-edge/versioning.Version=v{{ .Version }}'
 
   - id: linux-amd64
     main: ./main.go

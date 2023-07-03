@@ -3,12 +3,12 @@ name: Lint
 on: # yamllint disable-line rule:truthy
   push:
     branches-ignore:
-      - "develop"
-      - "release/**"
+      - 'develop'
+      - 'release/**'
     tags-ignore:
-      - "v*"
+      - 'v*'
     paths:
-      - "**.go"
+      - '**.go'
   workflow_call: {}
   workflow_dispatch: {}
 

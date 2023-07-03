@@ -24,7 +24,7 @@ jobs:
           GOARC: amd64
           GOOS: linux
 
-      - name: "Upload Artifact"
+      - name: 'Upload Artifact'
         uses: actions/upload-artifact@v3
         with:
           name: polygon-edge
@@ -43,7 +43,7 @@ jobs:
         with:
           go-version: 1.18.x
 
-      - name: "Reproduce builds"
+      - name: 'Reproduce builds'
         continue-on-error: true
         run: |
           go build -o ./edge-1 -trimpath -buildvcs=false
