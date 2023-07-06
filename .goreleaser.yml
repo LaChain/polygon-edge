@@ -73,39 +73,3 @@ archives:
 
 snapshot:
   name_template: "{{ .Tag }}.next"
-
-dockers:
-  - image_templates:
-      - "{{ .Env.DOCKER_USERNAME }}/{{ .ProjectName }}:{{ .Version }}-amd64"
-    dockerfile: Dockerfile.release
-    use: buildx
-    goarch: amd64
-    ids:
-      - linux-amd64
-    build_flag_templates:
-      - --platform=linux/amd64
-    skip_push: false
-
-  - image_templates:
-      - "{{ .Env.DOCKER_USERNAME }}/{{ .ProjectName }}:{{ .Version }}-arm64"
-    dockerfile: Dockerfile.release
-    use: buildx
-    goarch: arm64
-    ids:
-      - linux-arm64
-    build_flag_templates:
-      - --platform=linux/arm64
-    skip_push: false
-
-docker_manifests:
-  - name_template: "{{ .Env.DOCKER_USERNAME }}/{{ .ProjectName }}:{{ .Version }}"
-    image_templates:
-      - "{{ .Env.DOCKER_USERNAME }}/{{ .ProjectName }}:{{ .Version }}-amd64"
-      - "{{ .Env.DOCKER_USERNAME }}/{{ .ProjectName }}:{{ .Version }}-arm64"
-    skip_push: false
-
-  - name_template: "{{ .Env.DOCKER_USERNAME }}/{{ .ProjectName }}:latest"
-    image_templates:
-      - "{{ .Env.DOCKER_USERNAME }}/{{ .ProjectName }}:{{ .Version }}-amd64"
-      - "{{ .Env.DOCKER_USERNAME }}/{{ .ProjectName }}:{{ .Version }}-arm64"
-    skip_push: auto
