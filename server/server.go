@@ -194,7 +194,7 @@ func NewServer(config *Config) (*Server, error) {
 	signer := crypto.NewEIP155Signer(uint64(m.config.Chain.Params.ChainID))
 
 	// blockchain object
-	m.blockchain, err = blockchain.NewBlockchain(logger, m.config.DataDir, config.Chain, nil, m.executor, signer)
+	m.blockchain, err = blockchain.NewBlockchain(logger, m.config.DataDir, config.Chain, nil, m.executor, signer, new(big.Int).SetUint64(m.config.PriceLimit))
 	if err != nil {
 		return nil, err
 	}

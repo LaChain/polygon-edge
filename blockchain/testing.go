@@ -19,6 +19,7 @@ import (
 var (
 	// defaultBlockGasTarget is the default value for the block gas target for new blocks
 	defaultBlockGasTarget uint64 = 8000000
+	defaultBlockGasLimit         = big.NewInt(8000000)
 )
 
 var (
@@ -343,7 +344,7 @@ func newBlockChain(config *chain.Chain, executor Executor) (*Blockchain, error) 
 		executor = &mockExecutor{}
 	}
 
-	b, err := NewBlockchain(hclog.NewNullLogger(), "", config, &MockVerifier{}, executor, &mockSigner{})
+	b, err := NewBlockchain(hclog.NewNullLogger(), "", config, &MockVerifier{}, executor, &mockSigner{}, defaultBlockGasLimit)
 	if err != nil {
 		return nil, err
 	}

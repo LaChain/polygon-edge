@@ -74,6 +74,8 @@ type Blockchain struct {
 	gpAverage *gasPriceAverage // A reference to the average gas price
 
 	writeLock sync.Mutex
+
+	priceLimit *big.Int // The price limit for transactions gas price
 }
 
 // gasPriceAverage keeps track of the average gas price (rolling average)
@@ -192,6 +194,7 @@ func NewBlockchain(
 	consensus Verifier,
 	executor Executor,
 	txSigner TxSigner,
+	priceLimit *big.Int,
 ) (*Blockchain, error) {
 	b := &Blockchain{
 		logger:    logger.Named("blockchain"),
@@ -204,6 +207,7 @@ func NewBlockchain(
 			price: big.NewInt(0),
 			count: big.NewInt(0),
 		},
+		priceLimit: priceLimit,
 	}
 
 	var (
@@ -966,16 +970,18 @@ func (b *Blockchain) extractBlockReceipts(block *types.Block) ([]*types.Receipt,
 func (b *Blockchain) updateGasPriceAvgWithBlock(block *types.Block) {
 	if len(block.Transactions) < 1 {
 		// No transactions in the block,
-		// so no gas price average to update
-		return
+		// so we set the gas price to the default to go back to an avg gas
+		// price of the default value
+		gasPrices := make([]*big.Int, 1)
+		gasPrices[0] = b.priceLimit
+		b.updateGasPriceAvg(gasPrices)
+	} else {
+		gasPrices := make([]*big.Int, len(block.Transactions))
+		for i, transaction := range block.Transactions {
+			gasPrices[i] = transaction.GasPrice
+		}
+		b.updateGasPriceAvg(gasPrices)
 	}
-
-	gasPrices := make([]*big.Int, len(block.Transactions))
-	for i, transaction := range block.Transactions {
-		gasPrices[i] = transaction.GasPrice
-	}
-
-	b.updateGasPriceAvg(gasPrices)
 }
 
 // writeBody writes the block body to the DB.
